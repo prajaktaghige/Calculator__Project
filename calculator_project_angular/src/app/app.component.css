@@ -1,0 +1,66 @@
+app.component.css 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .calculator-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #00796b;
+  }
+  
+  input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b0bec5;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 60px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004d40;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #00796b;
+    background-color: #e0f2f1;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+   
+  

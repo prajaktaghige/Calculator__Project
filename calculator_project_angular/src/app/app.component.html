@@ -1,0 +1,20 @@
+<!-- app.component.html -->
+
+<div class="calculator-container">
+    <h1>Simple Calculator</h1>
+    <div>
+      Num1: <input type="number" [(ngModel)]="num1"><br>
+      Num2: <input type="number" [(ngModel)]="num2"><br>
+    </div>
+    <div>
+      <button (click)="add()">+</button>
+      <button (click)="sub()">-</button>
+      <button (click)="mult()">*</button>
+      <button (click)="div()">/</button>
+      <button (click)="mod()">%</button>
+    </div>
+    <div class="result">
+      Result: {{result}}
+    </div>
+  </div>
+  
